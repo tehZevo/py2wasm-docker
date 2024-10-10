@@ -1,0 +1,6 @@
+services:
+  py2wasm:
+    build: .
+    volumes:
+      - ./py2wasm:/py2wasm
+  
